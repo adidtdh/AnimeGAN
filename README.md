@@ -42,7 +42,7 @@ ___
   or `python test.py --checkpoint_dir checkpoint/AnimeGAN_Hayao_lsgan_300_300_1_3_10 --test_dir dataset/test/real --style_name H`  
   
 ## 6. Convert images back into video
-
+  Run `python videomake.py` in the AnimeGAN directory. This will take the images from the results/H/ folder and make them into a video called video.avi.
 ____  
 ## Results  
 ------> pictures from the paper 'AnimeGAN: a novel lightweight GAN for photo animation'  
