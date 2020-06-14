@@ -38,6 +38,8 @@ ___
   eg. `python main.py --phase test --dataset Hayao`  
   or `python test.py --checkpoint_dir checkpoint/AnimeGAN_Hayao_lsgan_300_300_1_3_10 --test_dir dataset/test/real --style_name H`  
   
+### 5. Videos
+  Make a folder named "Videos" and run `python videobreak.py` in the AnimeGAN folder. Edit the videobreak.py file to change the video format. Default is .MOV. Then, run test.py. 
 ____  
 ## Results  
 ------> pictures from the paper 'AnimeGAN: a novel lightweight GAN for photo animation'  
